@@ -11,9 +11,12 @@
 
 (function() {
     'use strict';
-    console.log('New Issue Button was added');
+    console.log('New Issue Button from Tampermonkey');
     var author = $('span.author > a').eq(0).text();
+    console.log(author)
     var repository = $('span.author > span > a').text();
-    $('.d-flex.flex-justify-between.flex-items-center.f6').after('<a href="https://github.com/' + author + '/' + repository + '/issues/new">New Issue</a>');
+    console.log(repository)
+    $('.d-flex.flex-items-center.f5').after('<a href="https://github.com/' + author + '/' + repository + '/issues/new">New Issue</a>');
+    console.log('code end');
 })();
 
