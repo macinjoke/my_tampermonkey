@@ -11,6 +11,7 @@
 
 (function() {
     'use strict';
+    // WIP
 	document.onkeyup = function (e) {
 		console.log('delete a waste char');
         var span = $('#sentenceText span:last');
