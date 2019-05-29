@@ -7,6 +7,7 @@
 // @match        https://github.com/*/*/projects/*
 // @grant        none
 // @require      https://code.jquery.com/jquery-3.2.1.min.js
+// @require      file:///Users/TODO
 // ==/UserScript==
 
 (function() {
