@@ -7,7 +7,7 @@
   "author": "macinjoke <shunji.makino@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   },
   "devDependencies": {
     "prettier": "^1.17.1"
